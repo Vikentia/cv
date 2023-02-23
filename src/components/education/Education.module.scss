@@ -1,0 +1,29 @@
+@import '../../styles/constants.scss';
+
+.education {
+    padding: 0 50px;
+}
+
+.education__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid $color-background;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book {
+    width: 150px;
+}
+
+.book__image {
+    width: 100px;
+}
+
+.education__description {}

@@ -1,0 +1,25 @@
+@import '../../styles/constants.scss';
+
+.skills {
+    img {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+.skills__list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skills__item {
+    width: 200px;
+    border: 1px solid $color-background;
+    border-radius: 15px;
+
+    p {
+        margin: 5px;
+    }
+}
