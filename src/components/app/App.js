@@ -9,6 +9,7 @@ import { Projects } from '../projects/Projects';
 import { Education } from '../education/Education';
 import { Languages } from '../languages/Languages';
 import { Experience } from '../experience/Experience';
+import { Footer } from '../footer/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Experience />
         <Education />
         <Languages />
+        <Footer />
       </div >
     </div >
   );

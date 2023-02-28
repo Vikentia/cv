@@ -11,6 +11,11 @@
     border: 1px solid $color-background;
     border-radius: 15px;
     margin-bottom: 15px;
+
+    >p {
+        padding-left: 10px;
+        font-size: 2rem;
+    }
 }
 
 .books {
@@ -24,6 +29,9 @@
 
 .book__image {
     width: 100px;
+    padding-top: 15px;
 }
 
-.education__description {}
+.education__description {
+    width: 82%;
+}
