@@ -9,7 +9,7 @@ export const About = () => {
             <img src={avatar} alt='avatar' className={style.avatar} />
             <div className={style.about__text}>
                 <h1>Victoria Kovaliova</h1>
-                <h3>Frontend developer</h3>
+                <h3>Frontend React developer</h3>
                 <a href='../assets/my-photo.jpg' download>
                     <button className={style.cvBtn}>Download CV</button>
                 </a>

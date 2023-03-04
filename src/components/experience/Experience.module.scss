@@ -1,0 +1,35 @@
+@import '../../styles/constants.scss';
+
+.experience {
+    padding: 0 50px;
+}
+
+.experience__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid $color-background;
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+    >p {
+        padding-left: 10px;
+        font-size: 2rem;
+    }
+}
+
+.experience__description {
+    width: 82%;
+
+    >:first-child {
+        text-decoration: underline;
+    }
+
+    >p {
+        color: $color-text-secondary;
+    }
+}
+.experience__list {
+    list-style: circle;
+    text-align: left;
+}
