@@ -1,15 +1,36 @@
 @import '../../styles/constants.scss';
 
-.about {
+.about__block {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 150px;
+}
 
-    &__text {
-        color: $color-text-secondary;
+.about__text {
+    color: $color-text-secondary;
+}
+
+.about__info {
+    padding: 0 70px;
+    text-align: start;
+}
+
+.about__hobbies {
+    vertical-align: middle;
+    display: flex;
+
+    >* {
+        margin: auto;
     }
 
+    img {
+        width: 40px;
+        padding: 15px;
+        margin-left: 10px;
+        border: 1px solid #111743;
+        border-radius: 25%;
+    }
 }
 
 .avatar {

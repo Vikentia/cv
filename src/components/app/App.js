@@ -17,12 +17,12 @@ function App() {
       <div className={style.wrapper}>
         <Header />
         <About />
-        <Contacts />
         <Skills />
         <Projects />
         <Experience />
         <Education />
         <Languages />
+        <Contacts />
         <Footer />
       </div >
     </div >
